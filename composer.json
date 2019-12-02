@@ -1,0 +1,30 @@
+{
+    "name": "jiaotu-net/redis-provider",
+    "description": "simple redis provider",
+    "keywords": [
+        "jiaotu",
+        "reids",
+        "provider",
+        "client"
+    ],
+    "homepage": "http://www.jiaotu.net/",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "HaoHui Wang",
+            "email": "haohui.wang@jiaotu.net",
+            "homepage": "http://www.jiaotu.net/",
+            "role": "Founder"
+        }
+    ],
+    "require": {
+        "php-64bit": ">=7.0.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JiaoTu\\RedisProvider\\": "src/"
+        }
+    }
+}
